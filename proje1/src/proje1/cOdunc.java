@@ -136,7 +136,7 @@ public class cOdunc extends cListele {
 		    try {
 		    	  Database veri = new DBConnect(new cVeritabani());
 			        connect = veri.baglanti();
-		        String sql = "select ID,KitapAdi,Adet,Fiyat from KITAPLAR";
+		        String sql = "select ID,KitapAdi,Adet,Fiyat from KITAPLAR where DURUM=1";
 		        statement = connect.prepareStatement(sql);
 		        resultSet = statement.executeQuery();
 
@@ -279,7 +279,7 @@ public class cOdunc extends cListele {
 	    try {
 	    	  Database veri = new DBConnect(new cVeritabani());
 		        connect = veri.baglanti();
-	        String sql = "select ID,UyeKullaniciAdi,UyeAd,UyeSoyad,Email from UYELER";
+	        String sql = "select ID,UyeKullaniciAdi,UyeAd,UyeSoyad,Email from UYELER where DURUM=1";
 	        statement = connect.prepareStatement(sql);
 	        resultSet = statement.executeQuery();
 
