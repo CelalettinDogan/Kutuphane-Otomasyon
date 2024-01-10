@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="images"/>
+	<classpathentry kind="src" path="AbstractFactory"/>
+	<classpathentry kind="src" path="State/Strategy"/>
+	<classpathentry kind="src" path="Bridge"/>
+	<classpathentry kind="src" path="Singleton"/>
+	<classpathentry kind="src" path="AbstractClass"/>
+	<classpathentry kind="lib" path="C:/Users/Win10/OneDrive - klu.edu.tr/Masaüstü/kırklareli/sqljdbc_8.2/enu/mssql-jdbc-8.2.2.jre13.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-17.0.4.1"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
